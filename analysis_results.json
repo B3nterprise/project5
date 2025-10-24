@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "analysis_date": "2025-10-23",
+    "total_homicides_analyzed": 1662,
+    "years_analyzed": [2019, 2020, 2021, 2022, 2023]
+  },
+  "question_1": {
+    "question": "Which police districts have the worst homicide closure rates and highest concentration of unsolved cases?",
+    "districts": [
+      {
+        "district": "Southwestern",
+        "total_homicides": 181,
+        "closed_cases": 49,
+        "open_cases": 132,
+        "closure_rate_percent": 27.071823204419886,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Central",
+        "total_homicides": 198,
+        "closed_cases": 54,
+        "open_cases": 144,
+        "closure_rate_percent": 27.27272727272727,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Western",
+        "total_homicides": 187,
+        "closed_cases": 52,
+        "open_cases": 135,
+        "closure_rate_percent": 27.807486631016044,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Eastern",
+        "total_homicides": 175,
+        "closed_cases": 49,
+        "open_cases": 126,
+        "closure_rate_percent": 28.000000000000004,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Northern",
+        "total_homicides": 193,
+        "closed_cases": 57,
+        "open_cases": 136,
+        "closure_rate_percent": 29.533678756476682,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Northwestern",
+        "total_homicides": 172,
+        "closed_cases": 52,
+        "open_cases": 120,
+        "closure_rate_percent": 30.23255813953488,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Southeastern",
+        "total_homicides": 197,
+        "closed_cases": 61,
+        "open_cases": 136,
+        "closure_rate_percent": 30.96446700507614,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Southern",
+        "total_homicides": 169,
+        "closed_cases": 53,
+        "open_cases": 116,
+        "closure_rate_percent": 31.360946745562128,
+        "priority_level": "HIGH"
+      },
+      {
+        "district": "Northeastern",
+        "total_homicides": 190,
+        "closed_cases": 68,
+        "open_cases": 122,
+        "closure_rate_percent": 35.78947368421053,
+        "priority_level": "STANDARD"
+      }
+    ],
+    "summary": {
+      "critical_districts": 0,
+      "total_open_critical_cases": 0,
+      "estimated_detectives_needed": 0
+    }
+  },
+  "question_2": {
+    "question": "What are the seasonal and monthly patterns of homicides to optimize preventive patrol deployment?",
+    "monthly_patterns": [
+      {
+        "month_number": 1,
+        "month_name": "January",
+        "average_homicides": 27.0,
+        "percent_of_annual_average": 97.47292418772562,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 2,
+        "month_name": "February",
+        "average_homicides": 26.4,
+        "percent_of_annual_average": 95.30685920577618,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 3,
+        "month_name": "March",
+        "average_homicides": 28.4,
+        "percent_of_annual_average": 102.52707581227436,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 4,
+        "month_name": "April",
+        "average_homicides": 29.2,
+        "percent_of_annual_average": 105.41516245487365,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 5,
+        "month_name": "May",
+        "average_homicides": 28.6,
+        "percent_of_annual_average": 103.24909747292419,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 6,
+        "month_name": "June",
+        "average_homicides": 27.4,
+        "percent_of_annual_average": 98.91696750902527,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 7,
+        "month_name": "July",
+        "average_homicides": 30.4,
+        "percent_of_annual_average": 109.74729241877257,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 8,
+        "month_name": "August",
+        "average_homicides": 25.0,
+        "percent_of_annual_average": 90.25270758122744,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 9,
+        "month_name": "September",
+        "average_homicides": 27.0,
+        "percent_of_annual_average": 97.47292418772562,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 10,
+        "month_name": "October",
+        "average_homicides": 27.4,
+        "percent_of_annual_average": 98.91696750902527,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 11,
+        "month_name": "November",
+        "average_homicides": 27.2,
+        "percent_of_annual_average": 98.19494584837545,
+        "deployment_level": "STANDARD"
+      },
+      {
+        "month_number": 12,
+        "month_name": "December",
+        "average_homicides": 28.4,
+        "percent_of_annual_average": 102.52707581227436,
+        "deployment_level": "STANDARD"
+      }
+    ],
+    "seasonal_summary": {
+      "summer_vs_winter_increase_percent": 1.2224938875305624,
+      "peak_season": "Summer (June-August)",
+      "lowest_season": "Winter (December-February)"
+    }
+  }
+}
